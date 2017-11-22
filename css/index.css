@@ -1,0 +1,49 @@
+body {
+  background: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?auto=format&fit=crop&w=755&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#calculator {
+  background-color: gray;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0px 0px 3px 6px #ccc;    
+}
+
+#display {
+  margin-bottom: 20px;
+  height: 20px;
+  width: 10em;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px black;
+  text-align: right;
+  font: 20px bold;
+}
+
+#keys {
+  width: 41px;
+  height: 20px;
+  margin: 4px;
+  border-raidus: 2px;
+  outline: none;
+}
+
+#equal {
+  width: 96px;
+  height: 20px;
+  margin: 4px;
+  border-raidus: 2px;
+  outline: none;
+}
